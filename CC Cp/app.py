@@ -56,4 +56,4 @@ def recommend():
     return render_template('recommend.html', recommended_flights=recommended_flights)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
